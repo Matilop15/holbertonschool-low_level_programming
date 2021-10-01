@@ -7,8 +7,9 @@
 * Return: si N-0 mostrara "is negative"
 */
 int main(void)
-{	int mod = n % 10;
+{
 	int n;
+	int mod = n % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
