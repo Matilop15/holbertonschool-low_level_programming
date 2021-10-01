@@ -6,7 +6,7 @@
 int main(void)
 {
 	char alf, alf2;
-	
+
 	for (alf = 'a' ; alf <= 'z' ; alf++)
 	putchar (alf);
 
