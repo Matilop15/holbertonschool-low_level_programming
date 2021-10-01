@@ -10,6 +10,8 @@ int main(void)
 	for (alf = 'z' ; alf >= 'a' ; alf--)
 	{	
 		putchar (alf);
+	}
+	{
 		putchar ('\n');
 	}
 	return (0);
