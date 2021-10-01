@@ -8,7 +8,7 @@ int main(void)
 	int alf;
 
 	for (alf = '0' ; alf <= '9' ; alf++)
-		putchar (alf);
-		putchar ('\n');
+	putchar (alf);
+	putchar ('\n');
 	return (0);
 }
