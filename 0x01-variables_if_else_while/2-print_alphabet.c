@@ -9,5 +9,6 @@ int main(void)
 
 	for (alf = 'a' ; alf <= 'z' ; alf++)
 	putchar (alf);
+	putchar ('\n');
 	return (0);
 }
