@@ -15,7 +15,7 @@ int main(void)
 	{
 		for (ter = '0' ; ter <= '9' ; ter++)
 		{
-			if (alf < seg && seg != ter)
+			if (alf < seg && seg < ter)
 			{
 				putchar(alf);
 				putchar(seg);
