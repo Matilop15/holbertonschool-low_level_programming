@@ -11,11 +11,8 @@ int print_last_digit(int mat)
 
 	if (res < 0)
 	{
-		_putchar(res * -1);
+		res *= -1;
 	}
-	else
-		{
-		return (res);
-		}
-	return (0);
+		 _putchar(res + '0');
+	return (res);
 }
