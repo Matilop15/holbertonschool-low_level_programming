@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* main - write alphabet
+* print_alphabet - write alphabet
 * Return: no exist
 */
 
