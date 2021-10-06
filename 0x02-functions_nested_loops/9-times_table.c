@@ -13,22 +13,21 @@ void times_table(void)
 			resultado = fila * columna;
 			if (columna == 0)
 			{
-				_putchar(resultado);
+				_putchar(resultado + '0');
 			}
-			else
-			{
-				_putchar(',');
-				_putchar(' ');
-			}
-				if (resultado / 10 == 0)
-					{
-					_putchar(' ');
-					_putchar('0' + resultado);
-					}
-				else
+				if (resultado < 10 && columna != 0)
 				{
-					_putchar('0' + resultado / 10);
-					_putchar('0' + resultado % 10);
+						_putchar(',');
+						_putchar(' ');
+						_putchar(' ');
+						_putchar('0' + resultado);
+				}
+				else if (resultado >= 10)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(resultado / 10 + '0');
+					_putchar(resultado % 10 + '0');
 				}
 		}
 	_putchar('\n');
