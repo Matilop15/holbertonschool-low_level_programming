@@ -11,7 +11,7 @@ void print_times_table(int n)
 	{
 		for (fila = 0 ; fila <= n ; fila++)
 		{
-			_putchar('0')
+			_putchar('0');
 			for (columna = 0 ; columna <= n ; columna++)
 			{
 				resultado = fila * columna;
@@ -32,7 +32,7 @@ void print_times_table(int n)
 					_putchar(resultado % 10 + '0');
 				}
 				else
-				{	
+				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(((resultado / 10) / 10) + '0');
