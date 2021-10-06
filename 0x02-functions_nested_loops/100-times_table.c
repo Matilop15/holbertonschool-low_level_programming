@@ -17,7 +17,7 @@ void print_times_table(int n)
 				resultado = fila * columna;
 				if (resultado <= 9)
 				{
-					_putchar('5');
+					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
