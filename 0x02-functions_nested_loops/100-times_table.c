@@ -12,7 +12,7 @@ void print_times_table(int n)
 		for (fila = 0 ; fila <= n ; fila++)
 		{
 			_putchar('0');
-			for (columna = 0 ; columna <= n ; columna++)
+			for (columna = 1 ; columna <= n ; columna++)
 			{
 				resultado = fila * columna;
 				if (resultado <= 9)
