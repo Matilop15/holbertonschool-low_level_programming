@@ -15,21 +15,21 @@ void times_table(void)
 			{
 				_putchar(resultado + '0');
 			}
-				if (resultado < 10 && columna != 0)
-				{
-						_putchar(',');
+			if (resultado < 10 && columna != 0)
+			{
+				_putchar(',');
 						_putchar(' ');
 						_putchar(' ');
 						_putchar('0' + resultado);
 				}
-				else if (resultado >= 10)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(resultado / 10 + '0');
-					_putchar(resultado % 10 + '0');
-				}
-		}
+					else if (resultado >= 10)
+					{
+						_putchar(',');
+						_putchar(' ');
+						_putchar(resultado / 10 + '0');
+						_putchar(resultado % 10 + '0');
+					}
+			}
 	_putchar('\n');
 	}
 }
