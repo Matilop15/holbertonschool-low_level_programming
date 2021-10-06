@@ -1,9 +1,6 @@
 #include "main.h"
 /**
-  *
-  *
-  *
-  *
+*times_table - tabla sumatoria
  */
 void times_table(void)
 {
