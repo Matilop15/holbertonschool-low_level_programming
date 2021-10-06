@@ -16,7 +16,7 @@ void times_table(void)
 			resultado = fila * columna;
 			if (columna == 0)
 			{
-				_putchar('0' + resultado);
+				_putchar(resultado);
 			}
 			else
 			{
@@ -34,6 +34,6 @@ void times_table(void)
 					_putchar('0' + resultado % 10);
 				}
 		}
-	_putchar('\n');	
+	_putchar('\n');
 	}
 }
