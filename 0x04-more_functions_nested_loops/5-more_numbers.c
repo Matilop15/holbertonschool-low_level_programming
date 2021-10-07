@@ -1,8 +1,6 @@
 #include "main.h"
 /**
-  *
-  *
-  *
+  *more_numbers - string of number
   */
 void more_numbers(void)
 {
