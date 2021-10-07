@@ -1,8 +1,7 @@
 #include "main.h"
 /**
   *print_numbers - string 0-9
-  *@a: varible
-  *Return: is 0
+  *
   */
 void print_numbers(void)
 {
