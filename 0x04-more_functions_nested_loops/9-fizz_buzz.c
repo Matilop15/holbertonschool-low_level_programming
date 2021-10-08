@@ -27,7 +27,7 @@ int main(void)
 		}
 		if(num <= 99)
 		{
-		putchar('6');
+		putchar(' ');
 		}
 	}
 	putchar('\n');
