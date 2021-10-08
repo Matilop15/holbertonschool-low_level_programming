@@ -25,7 +25,7 @@ int main(void)
 		{
 			printf("%d", num);
 		}
-		if(num <= 99)
+		if (num <= 99)
 		{
 		putchar(' ');
 		}
