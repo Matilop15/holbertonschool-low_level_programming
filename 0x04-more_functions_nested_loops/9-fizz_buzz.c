@@ -25,7 +25,11 @@ int main(void)
 		{
 			printf("%d", num);
 		}
-		putchar(' ');
+		if(num <= 99)
+		{
+		putchar('6');
+		}
 	}
+	putchar('\n');
 	return (0);
 }
