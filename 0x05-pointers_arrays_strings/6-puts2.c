@@ -5,17 +5,11 @@
   */
 void puts2(char *str)
 {
-	for (; *str != '\0'; str++)
+	int a;
+
+	for (a = 0; str[a] != 0; a += 2)
 	{
-		if ((*str % 2) == 0 || str == 0)
-		{
-			_putchar(*str);
-		}
-		if (*str == '\0')
-		{
-			break;
-			str++;
-		}
+		_putchar(str[a]);
 	}
 	_putchar(10);
 }
