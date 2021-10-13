@@ -11,10 +11,14 @@ void puts_half(char *str)
 	{	
 	}
 	b = (a / 2);
-	b = (b + 1);
 	for (a = b; str[a]; a++)
 		{
 			_putchar(str[a]);
 		}
+	if (a / 2 != 0)
+	{
+		 b = (b + 1);
+		 _putchar(str[a]);
+	}
 		_putchar('\n');
 }
