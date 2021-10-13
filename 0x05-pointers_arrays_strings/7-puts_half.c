@@ -13,7 +13,7 @@ void puts_half(char *str)
 	}
 	for (a = b; str[a]; a++)
 		{
-			_putchar(str[a];
+			_putchar(str[a]);
 		}
 		_putchar('\n');
 }
