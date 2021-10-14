@@ -1,7 +1,9 @@
 #include "main.h"
 /**
-  *
-  *
+  *_strcmp - funcion que compara 2 strings
+  *@s1: primer string
+  *@s2: segundo string
+  *Retunr: valor de la comparacion, si es 0 eran iguales, si es positivo el primero era mayor y visceversa.  
   */
 int _strcmp(char *s1, char *s2)
 {
