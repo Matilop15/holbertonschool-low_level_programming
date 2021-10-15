@@ -22,11 +22,9 @@ char *cap_string(char *a)
 
 		if (a[b] == c[d])
 		{
-			b++;
-
-			if (a[b] >= 97 && a[b] <= 122)
+			if (a[b + 1] >= 97 && a[b + 1] <= 122)
 			{
-				a[b] = a[b] - 32;
+				a[b + 1] = a[b + 1] - 32;
 			}
 		}
 		}
