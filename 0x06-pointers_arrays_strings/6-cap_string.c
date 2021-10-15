@@ -2,17 +2,17 @@
 /**
   *cap_string - cambiar las minusculas desp de un simbolo
   *@a: texto a modificar
- *@c: simbolos a comparar
   *Return: txto dado
   */
 char *cap_string(char *a)
 {
 	int b, d;
-	int c[] = {'.', ',', '(', ')', '{', '}', '!', '?', '"', 10, '-', 9, ' '};
+	int c[] = {'.', ',', '(', ')',
+		'{', '}', '!', '?', '"', 10, '-', 9, ' '};
 
 	for (b = 0; a[b] != 0; b++)
 	{
-		if (a[0] >= 97 && a[b]<= 122)
+		if (a[0] >= 97 && a[b] <= 122)
 		{
 			a[b] = a[b] - 32;
 		}
