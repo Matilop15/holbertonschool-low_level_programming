@@ -7,12 +7,12 @@
 char *rot13(char *rot)
 {
 	int lect, comp;
-	char norm[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWQYZ";
-	char rot13[52] = "nopqrstuvwqyzabcdefghijklmNOPQRSTUVWQYZABCDEFGHIJKLM";
+	char norm[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWQXYZ";
+	char rot13[] = "nopqrstuvwqxyzabcdefghijklmNOPQRSTUVWQXYZABCDEFGHIJKLM";
 
 	for (lect = 0; rot[lect] != 0; lect++)
 	{
-		for (comp = 0; comp < 52; comp++)
+		for (comp = 0; norm[comp] != 0; comp++)
 		{
 			if (norm[comp] == rot[lect])
 			{
