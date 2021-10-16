@@ -7,8 +7,8 @@
 char *rot13(char *rot)
 {
 	int lect, comp;
-	char norm[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWQXYZ";
-	char rot13[] = "nopqrstuvwqxyzabcdefghijklmNOPQRSTUVWQXYZABCDEFGHIJKLM";
+	char norm[] = "abcdefghijklmnopqrstuvwxyzABCDEFGJIJKLMNOPQRSTUVWQXYZ";
+	char rot13[] = "nopqrstuvwqxyzabcdefghijklmNOPQRSTUVWQXYZABCDEFGJIJKLM";
 
 	for (lect = 0; rot[lect] != 0; lect++)
 	{
