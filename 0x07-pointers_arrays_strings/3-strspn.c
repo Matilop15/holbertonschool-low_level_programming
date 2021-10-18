@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- *
- *
- *
+ *_strspn - calculate the length
+ *@s: string base
+ *@accept: compare bite
+ *@Return: number of bytes of s
  */
 unsigned int _strspn(char *s, char *accept)
 {
