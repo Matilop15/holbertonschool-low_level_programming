@@ -1,8 +1,10 @@
 #include "main.h"
 /**
-  *
-  *
-  *
+  *_strchr - locate a character in a string
+  *@s: string where to find character
+  *@c: character to find
+  *@: to move in the string
+  *Return: if to find the character its address, else is null
   */
 char *_strchr(char *s, char c)
 {
