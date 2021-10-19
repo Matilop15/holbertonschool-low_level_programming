@@ -1,31 +1,23 @@
 #include "main.h"
 /**
- *_strspn - calculate the length
- *@s: string base
- *@accept: compare bite
- *@Return: number of bytes of s
- */
+*_strspn -  gets length of prefix substring
+*@s: string for check
+*@accept: bytes for check
+*Return: number of bytes
+*/
 unsigned int _strspn(char *s, char *accept)
 {
-	int a, j, k, l;
-	unsigned int count;
+	unsigned int i, j;
 
-	a = 0;
-	l = 0;
-	count = 0;
-
-	while (accept[a] != '\0')
-		i++;
-	while (s[l] != '\0')
-		l++;
-
-	for (j = 0; j < l; j++)
+	for (i = 0; s[i]; i++)
 	{
-		for (k = 0; k <= a; k++)
+		for (j = 0; accept[j]; j++)
 		{
-			if (accept[k] == s[j])
-				count++;
+			if (s[i] == accept[j])
+				break;
 		}
+		if (!accept[j])
+			break;
 	}
-	return (count);
+	return (i);
 }
