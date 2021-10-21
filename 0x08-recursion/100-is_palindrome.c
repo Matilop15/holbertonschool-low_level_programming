@@ -16,7 +16,7 @@ int is_palindrome(char *s)
 	else
 	{
 		/**suma el valor de string a la variable a*/
-		rec += _print_rev_recursion(s + 1);
+		rec += is_palindrome(s + 1);
 		rec++;
 		return (rec);
 	}
