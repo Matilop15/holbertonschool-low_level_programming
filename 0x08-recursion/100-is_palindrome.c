@@ -7,8 +7,6 @@
 
 int is_palindrome(char *s)
 {
-	int comp = _print_rev_recursion(s);
-
 	return (0);
 }
 /**
