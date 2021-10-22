@@ -4,24 +4,23 @@
  *main - mult site 1 for 2 always
  *@argc: long of variable
  *@argv: content variabl
- *Return: if 1 if the variabl is more long of two, else is 0
+ *Return: if 1 if the variabl not is two, else is 0
  */
 int main(int argc, char *argv[])
 {
 	int a, b, c;
 
-	a = atoi(argv[1]);
-	b = atoi(argv[2]);
-	c = a * b;
-
-	if (argc > 3)
+	if (argc < 3)
 	{
-		printf("Error\n");
+		puts("Error");
 		return (1);
 	}
 	else
 	{
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
+		c = b * a;
 		printf("%d\n", c);
-		return (0);
 	}
+	return (0);
 }
