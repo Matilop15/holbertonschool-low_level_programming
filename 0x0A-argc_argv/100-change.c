@@ -4,7 +4,7 @@
  *main - minimum number of coins to make chang
  *@argc: long of array
  *@argv: input number
- *Return: return 1 if not is only 1 number
+ *Return: return 0 if not is only 1 number
  */
 int main(int argc, char *argv[])
 {
@@ -19,11 +19,6 @@ int main(int argc, char *argv[])
 
 	coin = atoi(argv[1]);
 
-	if (coin < 0)
-	{
-		printf("0\n");
-		return (0);
-	}
 	for (a = 0; coin > 0; a++)
 	{
 		if (coin >= 25)
