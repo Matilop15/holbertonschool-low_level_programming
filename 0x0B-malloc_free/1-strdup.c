@@ -8,13 +8,13 @@
 char *_strdup(char *str)
 {
 	char *dest;
-	int a = 1, b;
+	int a, b;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	for (; str[a] != 0; a++)
+	for (a = 0; str[a] != 0; a++)
 	{
 	}
 	dest = malloc((a * sizeof(str)) + 1);
@@ -26,6 +26,5 @@ char *_strdup(char *str)
 	{
 		dest[b] = str[b];
 	}
-	dest[b] = '\0';
 	return (dest);
 }
