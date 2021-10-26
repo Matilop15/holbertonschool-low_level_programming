@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *str_contat - concate two string
+ *str_concat - concate two string
  *@s1: string 1
  *@s2: string 2
  *Return: cadenas unidas
