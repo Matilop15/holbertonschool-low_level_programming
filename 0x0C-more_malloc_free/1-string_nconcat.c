@@ -33,17 +33,17 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	/**pidiendo lugar para las dos cadenas*/
 	if (dest1 == NULL)
 		return (NULL);
-	for (c = 0; c <= a; c++)
+	for (c = 0; c < a; c++)
 	{
 		dest1[c] = s1[c];
 	}
 	a = 0;
-	for (; c <= d + 1; c++)
+	for (; c < d + 1; c++)
 	{
 		dest1[c] = s2[a];
 		a++;
 	}
-	dest1[c + 2] = '\0';
+	dest1[c] = '\0';
 	return (dest1);
 	free(dest1);
 }
