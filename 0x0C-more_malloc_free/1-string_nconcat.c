@@ -35,7 +35,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		return (NULL);
 	}
-	for (c = 0; c <= a; c++)
+	for (c = 0; c < a; c++)
 	{
 		dest1[c] = s1[c];
 	}
@@ -45,5 +45,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		dest1[c] = s2[a];
 		a++;
 	}
+	c++;
+	dest1[c] = '\0';
 	return (dest1);
 }
