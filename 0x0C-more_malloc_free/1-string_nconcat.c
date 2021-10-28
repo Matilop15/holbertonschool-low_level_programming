@@ -9,11 +9,10 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-
 	char *dest1;
 	unsigned int a, b, c, d;
-	/**cadena vacia si pasan null*/
-	if (s1 == NULL)
+
+	if (s1 == NULL)/**cadena vacia si pasan null*/
 	{
 		s1 = "";
 	}
@@ -21,20 +20,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		s2 = "";
 	}
-	/**contando el largo de las cadenas*/
-	for (a = 0; s1[a] != '\0'; a++)
-	{
-	}
+	for (a = 0; s1[a] != '\0'; a++)/**contando el largo de las cadenas*/
+		;
 	for (b = 0; s2[b] != '\0'; b++)
-	{
-	}
-	/**compara el largo de b con n para ver cual usa en caso de que n > b*/
-	if (n >= b)
+		;
+	if (n >= b)/**compara el largo de b con n que n > b*/
 	{
 		d = a + b;
 	}
-	else
-		d = a + n;
+	d = a + n;
 
 	dest1 = malloc((d * sizeof(char)) + 1);
 	/**pidiendo lugar para las dos cadenas*/
