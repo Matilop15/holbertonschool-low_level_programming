@@ -38,7 +38,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		dest1[c] = s1[c];
 	}
 	a = 0;
-	for (; c < d + 1; c++)
+	for (; c < d; c++)
 	{
 		dest1[c] = s2[a];
 		a++;
