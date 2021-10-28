@@ -43,6 +43,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		dest1[c] = s2[a];
 		a++;
 	}
+	dest1[c + 2] = '\0';
 	return (dest1);
 	free(dest1);
 }
