@@ -25,10 +25,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (b = 0; s2[b] != '\0'; b++)
 		;
 	if (n >= b)/**compara el largo de b con n que n > b*/
-	{
 		d = a + b;
-	}
-	d = a + n;
+	else
+		d = a + n;
 
 	dest1 = malloc(d + 1);
 	/**pidiendo lugar para las dos cadenas*/
