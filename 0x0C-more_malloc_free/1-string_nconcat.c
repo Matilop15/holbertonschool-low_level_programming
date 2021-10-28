@@ -30,7 +30,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	d = a + n;
 
-	dest1 = malloc((d * sizeof(char)) + 1);
+	dest1 = malloc(d + 1);
 	/**pidiendo lugar para las dos cadenas*/
 	if (dest1 == NULL)
 	{
