@@ -24,6 +24,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		;
 	for (b = 0; s2[b] != '\0'; b++)
 		;
+	if (a + b == 0)
+		return (NULL);
 	if (n >= b)/**compara el largo de b con n que n > b*/
 		d = a + b;
 	else
