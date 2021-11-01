@@ -1,9 +1,7 @@
-#include <stdlib.h>
-
 #ifndef _DOG_H_
 #define _DOG_H_
 /**
- *dog - struct dog
+ *struct dog - struct dog
  *@name: charrr
  *@age: floaattt
  *@owner: charrrr
