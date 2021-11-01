@@ -1,12 +1,4 @@
-#include <stdio.h>
+#ifndef HEADER
+#define HEADER
 #define SIZE 1024
-/**
- *main - print MACRO SIZE.
- *Return: 
- */
- int main (void)
-{
-	_putchar(SIZE);
-	return (0);
-}
-
+#endif
