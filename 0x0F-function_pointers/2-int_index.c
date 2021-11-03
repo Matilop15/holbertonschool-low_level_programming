@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "function_pointers.h"
 /**
- *
- *
- *
- *
+ *int_index - return the firs element if have matche
+ *@array: content number for compare values
+ *@size: size of array
+ *@cmp: pointer to pointer
+ *Return: -1 if size is <= 0 or 0 if no matches
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
