@@ -20,9 +20,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("(nil)");
 		if (separator == NULL)
 			printf("%s", s);
-		else if (n - 1 > a)
+		else if (n > a)
 		{
 			printf("%s", s);
+			if (n - 1 > a)
 			printf("%s", separator);
 		}
 	}
