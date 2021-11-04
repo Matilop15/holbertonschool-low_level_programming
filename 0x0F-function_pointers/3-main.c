@@ -1,10 +1,12 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include "3-calc.h"
 /**
+ *main - functioon of pointer calculator
+ *@argc: counter argument
+ *@argv: list of elements
  *
- *
- *
- *
+ *Return: cero
  */
 int main(int argc, char *argv[])
 {
