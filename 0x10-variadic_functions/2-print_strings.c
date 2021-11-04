@@ -12,9 +12,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	unsigned int a;
 	char *dest;
 
-	va_start(param, n);
 	if (n > 0)
 	{
+		va_start(para, n);
 		for (a = 0; a < n; a++)
 		{
 			dest = va_arg(param, char *);
