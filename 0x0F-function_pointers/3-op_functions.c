@@ -2,11 +2,6 @@
 #include <stdlib.h>
 #include "3-calc.h"
 
-int op_add(int a, int b);
-int op_sub(int a, int b);
-int op_mul(int a, int b);
-int op_div(int a, int b);
-int op_div(int a, int b);
 /**
  *op_add - sum a and b
  *@a: number a
