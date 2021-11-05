@@ -36,13 +36,13 @@ void print_pchar(va_list param)
 	if (point == NULL)
 	{
 		printf("(nil)");
-		return;
 	}
 	printf("%s", point);
 }
 /**
  *print_all - print anything
  *@format: list types of argument
+ *Description: print anything
  */
 void print_all(const char * const format, ...)
 {
@@ -61,6 +61,7 @@ void print_all(const char * const format, ...)
 	va_start(param, format);
 	while (format && format[a])
 	{
+		b = 0;
 		while (type[b].vari)
 		{
 			if (format[a] == type[b].vari)
