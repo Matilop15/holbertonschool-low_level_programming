@@ -1,4 +1,3 @@
-#include <stdarg.h>
 #include "variadic_functions.h"
 /**
  *sum_them_all - funcions de suma de valores
