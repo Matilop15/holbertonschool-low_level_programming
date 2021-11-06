@@ -36,6 +36,7 @@ void print_pchar(va_list param)
 	if (point == NULL)
 	{
 		printf("(nil)");
+		return;
 	}
 	printf("%s", point);
 }
