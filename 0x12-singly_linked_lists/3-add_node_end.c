@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- *add_node_end - agrega nodos al final - 
+ *add_node_end - agrega nodos al final
  *@head: puntero al puntero que apunta a head
  *@str: string a poner en new_list
  *Return: new_list
@@ -13,9 +13,9 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	while (str[length])
 		length++;
+
 	new_list = malloc(sizeof(list_t));
-	tmp = malloc(sizeof(list_t));
-	if (!tmp || !new_list)
+	if (!new_list)
 		return (NULL);
 	new_list->str = strdup(str);
 	new_list->len = length;
