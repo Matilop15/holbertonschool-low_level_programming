@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- *free_listint - librerar todo el espacio
+ *free_listint2 - librerar todo el espacio
  *@head: pointer to list
  */
 void free_listint2(listint_t **head)
@@ -9,9 +9,9 @@ void free_listint2(listint_t **head)
 
 	while (head)
 	{
-		buffer = (*head);
+		buffer = *head;
 		*head = buffer->next;
 		free(buffer);
 	}
-	*head = NULL;
+
 }
