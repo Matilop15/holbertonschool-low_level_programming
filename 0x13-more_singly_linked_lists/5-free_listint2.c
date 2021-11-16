@@ -7,6 +7,9 @@ void free_listint2(listint_t **head)
 {
 	listint_t *buffer;
 
+	if (*head == NULL)
+		*head = NULL;
+
 	while (*head)
 	{
 		buffer = ((*head)->next);
