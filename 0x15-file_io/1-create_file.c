@@ -19,10 +19,12 @@ int create_file(const char *filename, char *text_content)
 	while (text_content[larg])
 		larg++;
 
-	if (text_content)
-		content = write(fd, text_content, larg);
-	else
+	if (!text_content)
 		return (1);
+
+	content = write(fd, text_content, larg);
+	close(fd);
+
 	if (content == -1)
 	{
 		close(fd);
