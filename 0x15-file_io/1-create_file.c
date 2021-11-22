@@ -7,7 +7,7 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int fd, larg = 0;
+	int fd, larg = 0, content;
 
 	if (!filename)
 		return (-1);
@@ -20,10 +20,14 @@ int create_file(const char *filename, char *text_content)
 		larg++;
 
 	if (text_content)
-		write(fd, text_content, larg);
+		content = write(fd, text_content, larg);
 	else
 		return (1);
-
+	if (content == -1)
+	{
+		close(fd);
+		return (-1);
+	}
 	close(fd);
 	return (1);
 }
