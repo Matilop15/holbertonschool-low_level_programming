@@ -45,4 +45,21 @@ void copy_file(const char *src, const char *dest)
 			exit(99);
 		}
 	}
+	if (readed == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", src);
+		exit(98);
+	}
+
+	if (close(ofd) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", ofd);
+		exit(100);
+	}
+
+	if (close(tfd) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", tfd);
+		exit(100);
+	}
 }
