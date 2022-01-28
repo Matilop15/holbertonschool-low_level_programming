@@ -23,7 +23,7 @@ void hash_table_delete(hash_table_t *ht)
 				free(srcnode->key);
 			if (srcnode->value != NULL)
 				free(srcnode->value);
-			
+
 			free(srcnode);
 			srcnode = temp;
 		}
