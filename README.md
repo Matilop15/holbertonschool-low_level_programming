@@ -18,14 +18,14 @@ git https://github.com/Matilop15/holbertonschool-low_level_programming.git
 
 #### Change Directory
 ```
-cd holbertonschool-low_level_programming/0x1A-hash_tables/
+cd clone holbertonschool-low_level_programming/0x1A-hash_tables/
 ```
 
 ## Usage
 ```
 gcc <filename.c>
 ```
-or
+and
 ```
 ./<filename.c>
 ```
@@ -58,4 +58,4 @@ or
 - [0x1A-hash_tables](https://github.com/Matilop15/holbertonschool-low_level_programming/tree/main/0x1A-hash_tables)
 
 ## Author
-Matias López - [Linkedin: @Matias López](https://uy.linkedin.com/in/matias-l%C3%B3pez-777796194?trk=people-guest_people_search-card)
+[Linkedin: @Matias López](https://uy.linkedin.com/in/matias-l%C3%B3pez-777796194?trk=people-guest_people_search-card)
