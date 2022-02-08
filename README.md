@@ -1,6 +1,8 @@
 <img src="https://blog.holbertonschool.com/wp-content/uploads/2020/04/unnamed-2.png" width="170" height="210">
+
 ## Lenguage
-<img src="https://img2.freepng.es/20171217/033/letter-c-png-5a36954d474e54.1991877715135266052921.jpg">
+
+<img src="https://img2.freepng.es/20171217/033/letter-c-png-5a36954d474e54.1991877715135266052921.jpg" width="50" height="70">
 
 # holbertonschool-low_level_programming
 
