@@ -1,12 +1,13 @@
 <img src="https://blog.holbertonschool.com/wp-content/uploads/2020/04/unnamed-2.png" width="170" height="210">
 
-## Lenguage <img src="https://img.icons8.com/color/50/000000/c-programming.png" "C">
+## Lenguage <img src="https://img.icons8.com/color/50/000000/c-programming.png">
 
 # holbertonschool-low_level_programming
 
 ## Purpose
--
 
+- Understand computational thinking
+- Learn C language
 
 ## Installation
 To use, first download  this repository into your local machine by issuing the following command in your local terminal. 
