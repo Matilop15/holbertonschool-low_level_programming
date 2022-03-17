@@ -2,7 +2,7 @@
 # Rules: -all: builds executables
 # - clean: deletes all temporary files along with the executable
 # - oclean: deletes the objects files
-# - fclean: deletes all temporari files, re executable, and the object files
+# - fclean: deletes all temporari files, the executable, and the object files
 # - re: forces recompilation fo all sources files
 # Variables: CC- the compiler to be used
 # SRC- the .c files
@@ -14,5 +14,18 @@ CC = gcc main.c school.c
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
+RM = rm -f
 
-all: 
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+clean: 
+	$(RM) *~ $(NAME)
+
+oclean: 
+	$(RM) *.o
+
+fclean: 
+	$(RM) *.o *~ $(NAME)
+
+re: oclean all
