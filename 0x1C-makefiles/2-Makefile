@@ -2,8 +2,8 @@
 # CC: the compiler to be used
 # SRC: the .c files
 # OBJ: the .o files
-# NAME: the name of the executable
-
+# NAME: the name of the executable: school
+#
 CC = gcc main.c school.c
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
