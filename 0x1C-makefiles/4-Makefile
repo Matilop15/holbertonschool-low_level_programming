@@ -1,0 +1,32 @@
+# created a excecutable named school
+# Rules: -all: builds executables
+# - clean: deletes all temporary files along with the executable
+# - oclean: deletes the objects files
+# - fclean: deletes all temporari files, the executable, and the object files
+# - re: forces recompilation fo all sources files
+# Variables: CC- the compiler to be used
+# SRC- the .c files
+# OBJ- the .o files
+# NAME- the name of the executable
+# RM: the program to delete files
+# CFLAGS: your favorite compiler flags
+
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+RM = rm -f
+CFLAGS = -Wall -Werror -Wextra -pedantic
+
+all: $(OBJ)
+	$(CC) $(OBJ) $(CFLAGS) -o $(NAME)
+
+clean: 
+	$(RM) *~ $(NAME)
+
+oclean: 
+	$(RM) $(OBJ)
+
+fclean: clean oclean 
+
+re: fclean all
