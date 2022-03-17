@@ -1,2 +1,4 @@
+# using the rule all compilate a excecutable named school
+# for all needed main.c and school.c NO .h
 all : main.c school.c
 	gcc main.c school.c -o school
