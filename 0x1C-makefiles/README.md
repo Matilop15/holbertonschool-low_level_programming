@@ -27,14 +27,14 @@ cd clone holbertonschool-low_level_programming/0x1C-C-makefiles/
 
 ## Usage
 ```
-gcc <filename.c>
+make -f <File>
 ```
-and
+Example
 ```
-./<filename.c>
+make -f 0-Makefile
 ```
 
-## Directories
+## Files
 
 - [0-Makefile](https://github.com/Matilop15/holbertonschool-low_level_programming/tree/main/0x1C-makefiles/0-Makefile)
 - [1-Makefile](https://github.com/Matilop15/holbertonschool-low_level_programming/tree/main/0x1C-makefiles/1-Makefile)
