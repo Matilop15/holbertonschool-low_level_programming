@@ -1,0 +1,13 @@
+# create a executable named school using all rule
+# CC: the compiler to be used
+# SRC: the .c files
+# OBJ: the .o files
+# NAME: the name of the executable
+
+CC = gcc main.c school.c
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME: school
+
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
