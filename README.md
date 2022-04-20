@@ -2,7 +2,7 @@
 
 # holbertonschool-low_level_programming
 
-## Lenguage
+## Lenguage 🤩
 <img src="https://img.icons8.com/color/50/000000/c-programming.png">
 
 ## Purpose
@@ -10,13 +10,13 @@
 - Understand computational thinking
 - Learn C language
 
-## Installation
+## Installation 💻
 To use, first download  this repository into your local machine by issuing the following command in your local terminal. 
 ```
 git https://github.com/Matilop15/holbertonschool-low_level_programming.git
 ```
 
-#### Change Directory
+#### Change Directory 📁
 ```
 cd clone holbertonschool-low_level_programming/0x1A-hash_tables/
 ```
@@ -30,7 +30,7 @@ and
 ./<filename.c>
 ```
 
-## Directories
+## Directories 🗂
 
 - [0x00-hello_world](https://github.com/Matilop15/holbertonschool-low_level_programming/tree/main/0x00-hello_world)
 - [0x01-variables_if_else_while](https://github.com/Matilop15/holbertonschool-low_level_programming/tree/main/0x01-variables_if_else_while)
@@ -58,5 +58,5 @@ and
 - [0x1A-hash_tables](https://github.com/Matilop15/holbertonschool-low_level_programming/tree/main/0x1A-hash_tables)
 - [0x1C-makefiles](https://github.com/Matilop15/holbertonschool-low_level_programming/tree/main/0x1C-makefiles)
 
-## Author
+## Author 👨‍💻
 [Linkedin: @Matias López](https://uy.linkedin.com/in/matias-l%C3%B3pez-777796194?trk=people-guest_people_search-card)
