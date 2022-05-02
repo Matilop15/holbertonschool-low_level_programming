@@ -26,7 +26,7 @@ gcc <filename.c>
 ./a.out
 ```
 
-## files
+## Files 📄
 * [0-linear.c](https://github.com/Matilop15/holbertonschool-low_level_programming/blob/main/0x1E-search_algorithms/0-linear.c)
 * [1-binary.c](https://github.com/Matilop15/holbertonschool-low_level_programming/blob/main/0x1E-search_algorithms/1-binary.c)
 * [search_algos.h](https://github.com/Matilop15/holbertonschool-low_level_programming/blob/main/0x1E-search_algorithms/search_algos.h)
